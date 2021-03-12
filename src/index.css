@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap");
 
 :root {
-  --primary: #efb6b2;
-  --secondary: #4e4e4e;
+  --primary: #1f8ac0;
+  --secondary: #104c91;
+  --bgcolor: #efc9af;
   --error: #ff4a4a;
 }
 
@@ -10,6 +11,7 @@
 body {
   font-family: "Noto Serif";
   color: var(--secondary);
+  background-color: var(--bgcolor);
 }
 .App {
   max-width: 960px;
